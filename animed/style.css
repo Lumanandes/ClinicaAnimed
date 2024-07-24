@@ -1,0 +1,65 @@
+/* Reset de estilos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Cor de fundo */
+    color: #333; /* Cor do texto */
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Estilo para o cabeçalho */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #007bff; /* Cor dos links */
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #0056b3; /* Cor dos links ao passar o mouse */
+}
+
+/* Estilo para o contêiner principal */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff; /* Cor de fundo */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+.container img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.texto {
+    margin-top: 20px;
+}
+
+/* Estilo para o rodapé */
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
